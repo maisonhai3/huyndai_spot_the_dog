@@ -1,0 +1,658 @@
+choreography_sequence {
+  name: "lateral_jumps"
+  slices_per_minute: 604.0
+  moves {
+    type: "workspace_arm_move"
+    requested_slices: 6
+    workspace_arm_move_params {
+      rotation {
+        roll {
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      translation {
+        x {
+          value: 0.85
+        }
+        y {
+          value: 0.2
+        }
+        z {
+          value: 0.65
+        }
+      }
+      absolute {
+        value: true
+      }
+      frame: ARM_MOVE_FRAME_CENTER_OF_FOOTPRINT
+      easing: EASING_CUBIC_IN_OUT
+    }
+  }
+  moves {
+    type: "pace_2step"
+    start_slice: 5
+    requested_slices: 8
+    pace_2step_params {
+      motion {
+        x {
+        }
+        y {
+          value: 0.5
+        }
+      }
+      swing_height {
+      }
+      swing_velocity {
+      }
+      absolute {
+      }
+    }
+  }
+  moves {
+    type: "chicken_head"
+    start_slice: 6
+    requested_slices: 7
+    chicken_head_params {
+      bob_magnitude {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      beats_per_cycle {
+        value: 2
+      }
+      follow {
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 8
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: 1e-06
+        }
+        pitch {
+          value: 0.15
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "workspace_arm_move"
+    start_slice: 13
+    requested_slices: 4
+    workspace_arm_move_params {
+      rotation {
+        roll {
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      translation {
+        x {
+          value: 0.85
+        }
+        y {
+          value: -0.4
+        }
+        z {
+          value: 0.65
+        }
+      }
+      absolute {
+        value: true
+      }
+      frame: ARM_MOVE_FRAME_CENTER_OF_FOOTPRINT
+      easing: EASING_CUBIC_IN_OUT
+    }
+  }
+  moves {
+    type: "pace_2step"
+    start_slice: 17
+    requested_slices: 8
+    pace_2step_params {
+      motion {
+        x {
+        }
+        y {
+          value: -0.5
+        }
+      }
+      swing_height {
+      }
+      swing_velocity {
+      }
+      absolute {
+      }
+    }
+  }
+  moves {
+    type: "chicken_head"
+    start_slice: 17
+    requested_slices: 9
+    chicken_head_params {
+      bob_magnitude {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      beats_per_cycle {
+        value: 2
+      }
+      follow {
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 20
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: 1e-06
+        }
+        pitch {
+          value: 0.15
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "workspace_arm_move"
+    start_slice: 26
+    requested_slices: 4
+    workspace_arm_move_params {
+      rotation {
+        roll {
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      translation {
+        x {
+          value: 0.85
+        }
+        y {
+          value: 0.4
+        }
+        z {
+          value: 1.0
+        }
+      }
+      absolute {
+        value: true
+      }
+      frame: ARM_MOVE_FRAME_CENTER_OF_FOOTPRINT
+      easing: EASING_CUBIC_IN_OUT
+    }
+  }
+  moves {
+    type: "jump"
+    start_slice: 29
+    requested_slices: 8
+    jump_params {
+      yaw {
+      }
+      flight_slices {
+        value: 4.0
+      }
+      stance_width {
+        value: 0.3
+      }
+      stance_length {
+        value: 0.6
+      }
+      absolute {
+      }
+      translation {
+        x {
+        }
+        y {
+          value: 0.5
+        }
+      }
+      split_fraction {
+        value: 0.5
+      }
+      lead_leg_pair: LEAD_AUTO
+    }
+  }
+  moves {
+    type: "chicken_head"
+    start_slice: 30
+    requested_slices: 8
+    chicken_head_params {
+      bob_magnitude {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      beats_per_cycle {
+        value: 2
+      }
+      follow {
+      }
+    }
+  }
+  moves {
+    type: "workspace_arm_move"
+    start_slice: 38
+    requested_slices: 4
+    workspace_arm_move_params {
+      rotation {
+        roll {
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      translation {
+        x {
+          value: 0.85
+        }
+        y {
+          value: -0.4
+        }
+        z {
+          value: 1.0
+        }
+      }
+      absolute {
+        value: true
+      }
+      frame: ARM_MOVE_FRAME_CENTER_OF_FOOTPRINT
+      easing: EASING_CUBIC_IN_OUT
+    }
+  }
+  moves {
+    type: "jump"
+    start_slice: 41
+    requested_slices: 8
+    jump_params {
+      yaw {
+      }
+      flight_slices {
+        value: 4.0
+      }
+      stance_width {
+        value: 0.3
+      }
+      stance_length {
+        value: 0.6
+      }
+      absolute {
+      }
+      translation {
+        x {
+        }
+        y {
+          value: -0.5
+        }
+      }
+      split_fraction {
+        value: 0.5
+      }
+      lead_leg_pair: LEAD_AUTO
+    }
+  }
+  moves {
+    type: "chicken_head"
+    start_slice: 42
+    requested_slices: 8
+    chicken_head_params {
+      bob_magnitude {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      beats_per_cycle {
+        value: 2
+      }
+      follow {
+      }
+    }
+  }
+  moves {
+    type: "workspace_arm_move"
+    start_slice: 50
+    requested_slices: 4
+    workspace_arm_move_params {
+      rotation {
+        roll {
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      translation {
+        x {
+          value: 0.85
+        }
+        y {
+          value: 0.4
+        }
+        z {
+          value: 1.0
+        }
+      }
+      absolute {
+        value: true
+      }
+      frame: ARM_MOVE_FRAME_CENTER_OF_FOOTPRINT
+      easing: EASING_CUBIC_IN_OUT
+    }
+  }
+  moves {
+    type: "jump"
+    start_slice: 53
+    requested_slices: 8
+    jump_params {
+      yaw {
+      }
+      flight_slices {
+        value: 4.0
+      }
+      stance_width {
+        value: 0.3
+      }
+      stance_length {
+        value: 0.6
+      }
+      absolute {
+      }
+      translation {
+        x {
+        }
+        y {
+          value: 0.5
+        }
+      }
+      split_fraction {
+        value: 0.5
+      }
+      lead_leg_pair: LEAD_AUTO
+    }
+  }
+  moves {
+    type: "chicken_head"
+    start_slice: 54
+    requested_slices: 8
+    chicken_head_params {
+      bob_magnitude {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      beats_per_cycle {
+        value: 2
+      }
+      follow {
+      }
+    }
+  }
+  moves {
+    type: "workspace_arm_move"
+    start_slice: 62
+    requested_slices: 4
+    workspace_arm_move_params {
+      rotation {
+        roll {
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      translation {
+        x {
+          value: 0.85
+        }
+        y {
+          value: -0.4
+        }
+        z {
+          value: 1.0
+        }
+      }
+      absolute {
+        value: true
+      }
+      frame: ARM_MOVE_FRAME_CENTER_OF_FOOTPRINT
+      easing: EASING_CUBIC_IN_OUT
+    }
+  }
+  moves {
+    type: "jump"
+    start_slice: 65
+    requested_slices: 8
+    jump_params {
+      yaw {
+      }
+      flight_slices {
+        value: 4.0
+      }
+      stance_width {
+        value: 0.3
+      }
+      stance_length {
+        value: 0.6
+      }
+      absolute {
+      }
+      translation {
+        x {
+        }
+        y {
+          value: -0.5
+        }
+      }
+      split_fraction {
+        value: 0.5
+      }
+      lead_leg_pair: LEAD_AUTO
+    }
+  }
+  moves {
+    type: "chicken_head"
+    start_slice: 66
+    requested_slices: 5
+    chicken_head_params {
+      bob_magnitude {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      beats_per_cycle {
+        value: 2
+      }
+      follow {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 71
+    requested_slices: 8
+    arm_move_params {
+      shoulder_0 {
+        value: 1e-06
+      }
+      shoulder_1 {
+        value: -2.00490352
+      }
+      elbow_0 {
+        value: 2.3499999999999996
+      }
+      elbow_1 {
+        value: -0.7989028799999998
+      }
+      wrist_0 {
+        value: -0.6
+      }
+      wrist_1 {
+        value: 0.7893642200000004
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.3991568000000001
+      }
+    }
+  }
+  moves {
+    type: "body_hold"
+    start_slice: 75
+    requested_slices: 8
+    body_hold_params {
+      rotation {
+        roll {
+          value: 0.18000000000000002
+        }
+        pitch {
+          value: -0.2
+        }
+        yaw {
+          value: 0.25
+        }
+      }
+      translation {
+        x {
+          value: 0.09999999999999999
+        }
+        y {
+          value: -0.03
+        }
+        z {
+          value: 0.02
+        }
+      }
+      entry_slices {
+        value: 4.0
+      }
+      exit_slices {
+        value: 4.0
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 76
+    requested_slices: 8
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+          value: -0.2
+        }
+        y {
+        }
+      }
+      second_foot: LEG_HIND_RIGHT
+      swing_waypoint {
+        x {
+          value: 0.5
+        }
+        y {
+          value: -0.2
+        }
+        z {
+          value: 1e-06
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+        value: true
+      }
+      waypoint_dwell {
+        value: 0.1
+      }
+      touch {
+        value: true
+      }
+      touch_offset {
+        x {
+          value: 0.35
+        }
+        y {
+          value: -0.19699200000000003
+        }
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 79
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+        value: 0.0008171199999997825
+      }
+      shoulder_1 {
+        value: -2.00490352
+      }
+      elbow_0 {
+        value: 2.30194467
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -0.45
+      }
+      wrist_1 {
+        value: 0.002878999999999632
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.13775179999999998
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+controls gripper
+bpm 120
+extendable
+display_rgb 255 0 0
+description "Minimal gripper animation to demonstrate how to make a gripper animation.  Opens and closes slowly, then more quickly."
+
+arm_entry_slices    0.0         2.0     16.0
+speed               0.25        1.0     2.0
+gripper_multiplier  0.0         1.0     2.0
+gripper_offset		-1			0		0
+
+time   gripper
+0      0
+1      -1
+2      0
+2.3    -1
+2.6    0

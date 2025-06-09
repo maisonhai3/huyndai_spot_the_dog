@@ -1,0 +1,527 @@
+choreography_sequence {
+  name: "kneeling_party"
+  slices_per_minute: 604.0
+  moves {
+    type: "arm_move"
+    requested_slices: 5
+    arm_move_params {
+      shoulder_0 {
+        value: 0.0008171199999997825
+      }
+      shoulder_1 {
+        value: -2.00490352
+      }
+      elbow_0 {
+        value: 2.30194467
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -0.10046687999999993
+      }
+      wrist_1 {
+        value: 0.002878999999999632
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "stand_to_kneel"
+    start_slice: 4
+    requested_slices: 21
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 14
+    requested_slices: 11
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.04050208
+      }
+      elbow_0 {
+        value: 2.67311664
+      }
+      elbow_1 {
+      }
+      wrist_0 {
+        value: -0.5534472000000001
+      }
+      wrist_1 {
+        value: -0.020095420000000086
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "ripple_color"
+    start_slice: 25
+    requested_slices: 7
+    ripple_color_params {
+      main {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      secondary {
+        red {
+          value: 255.0
+        }
+        green {
+        }
+        blue {
+        }
+      }
+      pattern: PATTERN_SNAKE
+      light_side: LIGHT_SIDE_BOTH_MATCHING
+      increment_slices {
+        value: 1.0
+      }
+    }
+  }
+  moves {
+    type: "kneel_circles"
+    start_slice: 25
+    requested_slices: 7
+    kneel_circle_params {
+      location {
+        x {
+          value: 0.4
+        }
+        y {
+        }
+        z {
+          value: -0.5
+        }
+      }
+      beats_per_circle {
+        value: 1
+      }
+      number_of_circles {
+      }
+      offset {
+        value: 0.05
+      }
+      radius {
+        value: 0.1
+      }
+      reverse {
+      }
+    }
+  }
+  moves {
+    type: "kneel_leg_move2"
+    start_slice: 32
+    requested_slices: 4
+    kneel_leg_move2_params {
+      left_hip_x {
+      }
+      left_hip_y {
+        value: 1e-06
+      }
+      left_knee {
+        value: -2.0
+      }
+      right_hip_x {
+      }
+      right_hip_y {
+        value: 1e-06
+      }
+      right_knee {
+        value: -0.25
+      }
+      easing: EASING_CUBIC_IN_OUT
+      link_to_next {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 32
+    requested_slices: 2
+    set_color_params {
+      left_color {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 34
+    requested_slices: 4
+    set_color_params {
+      left_color {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "kneel_leg_move2"
+    start_slice: 36
+    requested_slices: 4
+    kneel_leg_move2_params {
+      left_hip_x {
+      }
+      left_hip_y {
+        value: 1e-06
+      }
+      left_knee {
+        value: -0.25
+      }
+      right_hip_x {
+      }
+      right_hip_y {
+        value: 1e-06
+      }
+      right_knee {
+        value: -2.0
+      }
+      easing: EASING_CUBIC_IN_OUT
+      link_to_next {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 38
+    requested_slices: 2
+    set_color_params {
+      left_color {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "kneel_circles"
+    start_slice: 40
+    requested_slices: 7
+    kneel_circle_params {
+      location {
+        x {
+          value: 0.4
+        }
+        y {
+        }
+        z {
+          value: -0.5
+        }
+      }
+      beats_per_circle {
+        value: 1
+      }
+      number_of_circles {
+      }
+      offset {
+        value: 0.05
+      }
+      radius {
+        value: 0.1
+      }
+      reverse {
+      }
+    }
+  }
+  moves {
+    type: "ripple_color"
+    start_slice: 40
+    requested_slices: 7
+    ripple_color_params {
+      main {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      secondary {
+        red {
+          value: 255.0
+        }
+        green {
+        }
+        blue {
+        }
+      }
+      pattern: PATTERN_SNAKE
+      light_side: LIGHT_SIDE_BOTH_MATCHING
+      increment_slices {
+        value: 1.0
+      }
+    }
+  }
+  moves {
+    type: "kneel_leg_move2"
+    start_slice: 47
+    requested_slices: 4
+    kneel_leg_move2_params {
+      left_hip_x {
+      }
+      left_hip_y {
+        value: 1e-06
+      }
+      left_knee {
+        value: -0.25
+      }
+      right_hip_x {
+      }
+      right_hip_y {
+        value: 1e-06
+      }
+      right_knee {
+        value: -2.0
+      }
+      easing: EASING_CUBIC_IN_OUT
+      link_to_next {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 47
+    requested_slices: 2
+    set_color_params {
+      left_color {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 49
+    requested_slices: 4
+    set_color_params {
+      left_color {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "kneel_leg_move2"
+    start_slice: 51
+    requested_slices: 4
+    kneel_leg_move2_params {
+      left_hip_x {
+      }
+      left_hip_y {
+        value: 1e-06
+      }
+      left_knee {
+        value: -2.0
+      }
+      right_hip_x {
+      }
+      right_hip_y {
+        value: 1e-06
+      }
+      right_knee {
+        value: -0.25
+      }
+      easing: EASING_CUBIC_IN_OUT
+      link_to_next {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 53
+    requested_slices: 2
+    set_color_params {
+      left_color {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "kneel_to_stand"
+    start_slice: 57
+    requested_slices: 25
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 58
+    requested_slices: 10
+    arm_move_params {
+      shoulder_0 {
+        value: 0.0008171199999997825
+      }
+      shoulder_1 {
+        value: -2.00490352
+      }
+      elbow_0 {
+        value: 2.30194467
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -0.45
+      }
+      wrist_1 {
+        value: 0.002878999999999632
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+}

@@ -1,0 +1,1016 @@
+choreography_sequence {
+  name: "running_man_with_gripper"
+  slices_per_minute: 604.0
+  moves {
+    type: "arm_move"
+    requested_slices: 16
+    arm_move_params {
+      shoulder_0 {
+        value: 1e-06
+      }
+      shoulder_1 {
+        value: -1.1087257599999996
+      }
+      elbow_0 {
+        value: 1.8995825700000002
+      }
+      elbow_1 {
+        value: -0.00033503999999995315
+      }
+      wrist_0 {
+        value: -0.87892032
+      }
+      wrist_1 {
+        value: 1e-06
+      }
+      easing: EASING_CUBIC_OUTPUT
+      gripper {
+        value: -0.00021979999999999222
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 16
+    requested_slices: 2
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 18
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "running_man"
+    start_slice: 20
+    requested_slices: 142
+    running_man_params {
+      velocity {
+        x {
+        }
+        y {
+        }
+      }
+      swing_height {
+        value: 0.25
+      }
+      spread {
+        value: 0.16999999999999998
+      }
+      reverse {
+      }
+      pre_move_cycles {
+      }
+      speed_multiplier {
+        value: 0.5
+      }
+      duty_cycle {
+        value: 0.498715
+      }
+      com_height {
+        value: 0.58
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 22
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 26
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 30
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 34
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 38
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 42
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 46
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 50
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 54
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 58
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 62
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 66
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 70
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 74
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 78
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 82
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 86
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 90
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 94
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 98
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 102
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 106
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 110
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 114
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 118
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 122
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 126
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 130
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 134
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 138
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 142
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 146
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 150
+    requested_slices: 3
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -0.88
+      }
+      elbow_0 {
+        value: 1.71074565
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.01899504
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+        value: -0.8
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 154
+    requested_slices: 4
+    arm_move_params {
+      shoulder_0 {
+      }
+      shoulder_1 {
+        value: -1.4
+      }
+      elbow_0 {
+        value: 2.4699999999999998
+      }
+      elbow_1 {
+        value: 1e-06
+      }
+      wrist_0 {
+        value: -1.32
+      }
+      wrist_1 {
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+}

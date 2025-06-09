@@ -1,0 +1,1524 @@
+choreography_sequence {
+  name: "lights"
+  slices_per_minute: 320.0
+  moves {
+    type: "set_color"
+    requested_slices: 16
+    set_color_params {
+      left_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "body_hold"
+    start_slice: 14
+    requested_slices: 6
+    body_hold_params {
+      rotation {
+        roll {
+        }
+        pitch {
+        }
+        yaw {
+          value: -0.39757
+        }
+      }
+      translation {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      entry_slices {
+        value: 2.0
+      }
+      exit_slices {
+        value: 2.0
+      }
+    }
+  }
+  moves {
+    type: "independent_color"
+    start_slice: 16
+    requested_slices: 2
+    independent_color_params {
+      top_left {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+        }
+      }
+      upper_mid_left {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+        }
+      }
+      lower_mid_left {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_left {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      top_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+        }
+      }
+      upper_mid_right {
+        red {
+          value: 1e-06
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      lower_mid_right {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 18
+    requested_slices: 4
+    set_color_params {
+      left_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "body_hold"
+    start_slice: 20
+    requested_slices: 6
+    body_hold_params {
+      rotation {
+        roll {
+        }
+        pitch {
+        }
+        yaw {
+          value: 0.40027
+        }
+      }
+      translation {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      entry_slices {
+        value: 2.0
+      }
+      exit_slices {
+        value: 2.0
+      }
+    }
+  }
+  moves {
+    type: "independent_color"
+    start_slice: 22
+    requested_slices: 2
+    independent_color_params {
+      top_left {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+        }
+      }
+      upper_mid_left {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+        }
+      }
+      lower_mid_left {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_left {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      top_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+        }
+      }
+      upper_mid_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      lower_mid_right {
+        red {
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 24
+    requested_slices: 4
+    set_color_params {
+      left_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "independent_color"
+    start_slice: 28
+    requested_slices: 2
+    independent_color_params {
+      top_left {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+        }
+      }
+      upper_mid_left {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+        }
+      }
+      lower_mid_left {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_left {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      top_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+        }
+      }
+      upper_mid_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      lower_mid_right {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "independent_color"
+    start_slice: 30
+    requested_slices: 2
+    independent_color_params {
+      top_left {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+        }
+      }
+      upper_mid_left {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+        }
+      }
+      lower_mid_left {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_left {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      top_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      upper_mid_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      lower_mid_right {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "independent_color"
+    start_slice: 32
+    requested_slices: 2
+    independent_color_params {
+      top_left {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+        }
+      }
+      upper_mid_left {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+        }
+      }
+      lower_mid_left {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_left {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      top_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      upper_mid_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      lower_mid_right {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "independent_color"
+    start_slice: 34
+    requested_slices: 2
+    independent_color_params {
+      top_left {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+        }
+      }
+      upper_mid_left {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+        }
+      }
+      lower_mid_left {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_left {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      top_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      upper_mid_right {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      lower_mid_right {
+        red {
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_right {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 36
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: 0.5
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "fade_color"
+    start_slice: 36
+    requested_slices: 8
+    fade_color_params {
+      top_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      bottom_color {
+        red {
+          value: 255.0
+        }
+        green {
+        }
+        blue {
+        }
+      }
+      fade_in_slices {
+        value: 2.0
+      }
+      fade_out_slices {
+        value: 2.0
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 40
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: -0.5
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "fade_color"
+    start_slice: 44
+    requested_slices: 8
+    fade_color_params {
+      top_color {
+        red {
+          value: 255.0
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      bottom_color {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 165.0
+        }
+        blue {
+        }
+      }
+      fade_in_slices {
+        value: 2.0
+      }
+      fade_out_slices {
+        value: 2.0
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 44
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: 0.5
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 48
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: -0.5
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "fade_color"
+    start_slice: 52
+    requested_slices: 8
+    fade_color_params {
+      top_color {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      bottom_color {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 150.0
+        }
+        blue {
+          value: 150.0
+        }
+      }
+      fade_in_slices {
+        value: 2.0
+      }
+      fade_out_slices {
+        value: 2.0
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 52
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: 0.5
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 56
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: -0.5
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "ripple_color"
+    start_slice: 60
+    requested_slices: 12
+    ripple_color_params {
+      main {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      secondary {
+        red {
+          value: 255.0
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      pattern: PATTERN_FINE_GRAINED_ALTERNATE_COLORS
+      light_side: LIGHT_SIDE_BOTH_MATCHING
+      increment_slices {
+        value: 1.0
+      }
+    }
+  }
+  moves {
+    type: "butt_circle"
+    start_slice: 60
+    requested_slices: 12
+    butt_circle_params {
+      radius {
+        value: 0.2
+      }
+      beats_per_circle {
+        value: 1.0
+      }
+      number_of_circles {
+      }
+      pivot: PIVOT_HIND
+      clockwise {
+        value: true
+      }
+      starting_angle {
+      }
+    }
+  }
+  moves {
+    type: "butt_circle"
+    start_slice: 72
+    requested_slices: 12
+    butt_circle_params {
+      radius {
+        value: 0.2
+      }
+      beats_per_circle {
+        value: 1.0
+      }
+      number_of_circles {
+      }
+      pivot: PIVOT_HIND
+      clockwise {
+      }
+      starting_angle {
+      }
+    }
+  }
+  moves {
+    type: "ripple_color"
+    start_slice: 72
+    requested_slices: 12
+    ripple_color_params {
+      main {
+        red {
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      secondary {
+        red {
+          value: 64.0
+        }
+        green {
+          value: 224.0
+        }
+        blue {
+          value: 208.0
+        }
+      }
+      pattern: PATTERN_ALTERNATE_COLORS
+      light_side: LIGHT_SIDE_BOTH_MATCHING
+      increment_slices {
+        value: 2.0
+      }
+    }
+  }
+  moves {
+    type: "ripple_color"
+    start_slice: 84
+    requested_slices: 16
+    ripple_color_params {
+      main {
+        red {
+          value: 150.0
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      secondary {
+        red {
+          value: 64.0
+        }
+        green {
+          value: 224.0
+        }
+        blue {
+          value: 208.0
+        }
+      }
+      pattern: PATTERN_SNAKE
+      light_side: LIGHT_SIDE_BOTH_IN_SEQUENCE
+      increment_slices {
+        value: 1.0
+      }
+    }
+  }
+  moves {
+    type: "workspace_arm_move"
+    start_slice: 86
+    requested_slices: 14
+    workspace_arm_move_params {
+      rotation {
+        roll {
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      translation {
+        x {
+          value: 0.5
+        }
+        y {
+        }
+        z {
+          value: 0.25
+        }
+      }
+      absolute {
+        value: true
+      }
+      frame: ARM_MOVE_FRAME_SHOULDER
+      easing: EASING_CUBIC_IN_OUT
+      dance_frame_id {
+      }
+    }
+  }
+  moves {
+    type: "gripper"
+    start_slice: 94
+    requested_slices: 6
+    gripper_params {
+      angle {
+        value: -0.8338741000000001
+      }
+      speed {
+        value: 10.0
+      }
+    }
+  }
+  moves {
+    type: "ripple_color"
+    start_slice: 100
+    requested_slices: 18
+    ripple_color_params {
+      main {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 1e-06
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      secondary {
+        red {
+          value: 64.0
+        }
+        green {
+          value: 224.0
+        }
+        blue {
+          value: 208.0
+        }
+      }
+      pattern: PATTERN_SNAKE
+      light_side: LIGHT_SIDE_BOTH_MATCHING
+      increment_slices {
+        value: 0.39153499999999997
+      }
+    }
+  }
+  moves {
+    type: "gripper"
+    start_slice: 107
+    requested_slices: 8
+    gripper_params {
+      angle {
+        value: 1e-06
+      }
+      speed {
+        value: 3.0
+      }
+    }
+  }
+  moves {
+    type: "ripple_color"
+    start_slice: 118
+    requested_slices: 5
+    ripple_color_params {
+      main {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      secondary {
+        red {
+          value: 255.0
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      pattern: PATTERN_FINE_GRAINED_ALTERNATE_COLORS
+      light_side: LIGHT_SIDE_BOTH_MATCHING
+      increment_slices {
+        value: 1.0
+      }
+    }
+  }
+  moves {
+    type: "figure8_move"
+    start_slice: 120
+    requested_slices: 24
+    figure8_params {
+      height {
+        value: 0.3
+      }
+      width {
+        value: 0.4
+      }
+      beats_per_cycle {
+        value: 2.0
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 123
+    requested_slices: 4
+    set_color_params {
+      left_color {
+        red {
+        }
+        green {
+          value: 32.1606
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+        value: 1.192
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 127
+    requested_slices: 4
+    set_color_params {
+      left_color {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 44.3139
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 131
+    requested_slices: 4
+    set_color_params {
+      left_color {
+        red {
+          value: 180.8052
+        }
+        green {
+          value: 12.4083
+        }
+        blue {
+          value: 146.87234999999998
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 135
+    requested_slices: 4
+    set_color_params {
+      left_color {
+        red {
+          value: 255.0
+        }
+        green {
+          value: 115.47165
+        }
+        blue {
+          value: 18.48495
+        }
+      }
+      right_same_as_left {
+      }
+      right_color {
+        red {
+          value: 255.0
+        }
+        green {
+        }
+        blue {
+          value: 110.6598
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 139
+    requested_slices: 5
+    set_color_params {
+      left_color {
+        red {
+          value: 99.01140000000001
+        }
+        green {
+          value: 201.0624
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      right_same_as_left {
+      }
+      right_color {
+        red {
+          value: 1e-06
+        }
+        green {
+          value: 142.06050000000002
+        }
+        blue {
+          value: 141.80805
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+        value: 1.0
+      }
+    }
+  }
+  moves {
+    type: "animation"
+    start_slice: 144
+    requested_slices: 27
+    animate_params {
+      animation_name: "performance_bow"
+    }
+  }
+  moves {
+    type: "ripple_color"
+    start_slice: 144
+    requested_slices: 27
+    ripple_color_params {
+      main {
+        red {
+          value: 26.50215
+        }
+        green {
+          value: 98.84819999999999
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      secondary {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      pattern: PATTERN_FLASHING
+      light_side: LIGHT_SIDE_BOTH_MATCHING
+      increment_slices {
+        value: 1.99
+      }
+    }
+  }
+  moves {
+    type: "arm_move"
+    start_slice: 171
+    requested_slices: 6
+    arm_move_params {
+      shoulder_0 {
+        value: 0.7241946599999998
+      }
+      shoulder_1 {
+        value: -1.1424712
+      }
+      elbow_0 {
+        value: 1.30901175
+      }
+      elbow_1 {
+        value: -0.47525423999999994
+      }
+      wrist_0 {
+        value: 0.54216208
+      }
+      wrist_1 {
+        value: 0.4287982600000002
+      }
+      easing: EASING_CUBIC_IN_OUT
+      gripper {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 171
+    requested_slices: 6
+    set_color_params {
+      left_color {
+        red {
+        }
+        green {
+          value: 255.0
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+        value: 3.0
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "set_color"
+    start_slice: 177
+    requested_slices: 21
+    set_color_params {
+      left_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 1e-06
+        }
+      }
+      right_same_as_left {
+        value: true
+      }
+      right_color {
+        red {
+        }
+        green {
+        }
+        blue {
+          value: 255.0
+        }
+      }
+      fade_in_slices {
+      }
+      fade_out_slices {
+      }
+    }
+  }
+  moves {
+    type: "gripper"
+    start_slice: 177
+    requested_slices: 3
+    gripper_params {
+      angle {
+        value: -0.7672276
+      }
+      speed {
+        value: 10.0
+      }
+    }
+  }
+}
+choreography_start_slice: 141.75

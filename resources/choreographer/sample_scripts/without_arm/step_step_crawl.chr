@@ -1,0 +1,1200 @@
+choreography_sequence {
+  name: "step_step_crawl"
+  slices_per_minute: 520.0
+  moves {
+    type: "step"
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_NO_LEG
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "rotate_body_sharp"
+    start_slice: 4
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: 0.22228000000000003
+        }
+        pitch {
+          value: -0.33627
+        }
+        yaw {
+          value: 0.06684000000000001
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "rotate_body_sharp"
+    start_slice: 12
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: 0.22228000000000003
+        }
+        pitch {
+          value: -0.19740999999999997
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 12
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_NO_LEG
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 16
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_NO_LEG
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 20
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_FRONT_RIGHT
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 24
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_HIND_RIGHT
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 28
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_HIND_LEFT
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 32
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: 0.35
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 32
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_NO_LEG
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 36
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_FRONT_RIGHT
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 36
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: -0.35
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 40
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_HIND_RIGHT
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 40
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: 0.35
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 44
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_HIND_LEFT
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 44
+    requested_slices: 4
+    rotate_body_params {
+      rotation {
+        roll {
+          value: -0.35
+        }
+        pitch {
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 48
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_NO_LEG
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "butt_circle"
+    start_slice: 48
+    requested_slices: 20
+    butt_circle_params {
+      radius {
+        value: 0.1
+      }
+      beats_per_circle {
+        value: 1.0
+      }
+      number_of_circles {
+      }
+      pivot: PIVOT_FRONT
+      clockwise {
+      }
+      starting_angle {
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 52
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_FRONT_RIGHT
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 56
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_HIND_RIGHT
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 60
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_HIND_LEFT
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "step"
+    start_slice: 64
+    requested_slices: 4
+    step_params {
+      foot: LEG_FRONT_LEFT
+      offset {
+        x {
+        }
+        y {
+        }
+      }
+      second_foot: LEG_NO_LEG
+      swing_waypoint {
+        x {
+        }
+        y {
+        }
+        z {
+        }
+      }
+      swing_height {
+      }
+      liftoff_velocity {
+      }
+      touchdown_velocity {
+      }
+      mirror_x {
+      }
+      mirror_y {
+      }
+      waypoint_dwell {
+        value: 0.25
+      }
+      touch {
+      }
+      touch_offset {
+        x {
+        }
+        y {
+        }
+      }
+    }
+  }
+  moves {
+    type: "pace_2step"
+    start_slice: 68
+    requested_slices: 8
+    pace_2step_params {
+      motion {
+        x {
+          value: -0.05
+        }
+        y {
+        }
+      }
+      swing_height {
+      }
+      swing_velocity {
+      }
+      absolute_motion {
+        x {
+        }
+        y {
+        }
+      }
+      motion_is_absolute {
+      }
+      yaw {
+      }
+      absolute_yaw {
+      }
+      yaw_is_absolute {
+      }
+    }
+  }
+  moves {
+    type: "rotate_body"
+    start_slice: 68
+    requested_slices: 8
+    rotate_body_params {
+      rotation {
+        roll {
+          value: 1e-06
+        }
+        pitch {
+          value: -0.3
+        }
+        yaw {
+        }
+      }
+      return_to_start_pose {
+        value: true
+      }
+    }
+  }
+  moves {
+    type: "sway"
+    start_slice: 76
+    requested_slices: 58
+    sway_params {
+      vertical {
+        value: 0.2
+      }
+      horizontal {
+        value: 1e-06
+      }
+      roll {
+      }
+      pivot: PIVOT_CENTER
+      style: SWAY_STYLE_SQUARE
+      pronounced {
+        value: 0.5
+      }
+      hold_zero_axes {
+      }
+    }
+  }
+  moves {
+    type: "turn_2step"
+    start_slice: 76
+    requested_slices: 8
+    turn_params {
+      yaw {
+        value: 1.0
+      }
+      swing_height {
+      }
+      swing_velocity {
+      }
+      absolute_yaw {
+      }
+      yaw_is_absolute {
+      }
+      motion {
+        x {
+        }
+        y {
+        }
+      }
+      absolute_motion {
+        x {
+        }
+        y {
+        }
+      }
+      motion_is_absolute {
+      }
+    }
+  }
+  moves {
+    type: "turn_2step"
+    start_slice: 84
+    requested_slices: 8
+    turn_params {
+      yaw {
+        value: 0.8
+      }
+      swing_height {
+      }
+      swing_velocity {
+      }
+      absolute_yaw {
+        value: 1e-06
+      }
+      yaw_is_absolute {
+        value: true
+      }
+      motion {
+        x {
+        }
+        y {
+        }
+      }
+      absolute_motion {
+        x {
+        }
+        y {
+        }
+      }
+      motion_is_absolute {
+      }
+    }
+  }
+  moves {
+    type: "crawl"
+    start_slice: 92
+    requested_slices: 44
+    crawl_params {
+      swing_slices {
+        value: 6.0
+      }
+      velocity {
+        x {
+          value: 0.1
+        }
+        y {
+        }
+      }
+      stance_width {
+        value: 0.3
+      }
+      stance_length {
+        value: 0.6
+      }
+    }
+  }
+  moves {
+    type: "jump"
+    start_slice: 136
+    requested_slices: 6
+    jump_params {
+      yaw {
+      }
+      flight_slices {
+        value: 2.0
+      }
+      stance_width {
+        value: 0.45
+      }
+      stance_length {
+        value: 0.74
+      }
+      translation {
+        x {
+        }
+        y {
+        }
+      }
+      split_fraction {
+      }
+      absolute_yaw {
+      }
+      absolute_translation {
+        x {
+        }
+        y {
+        }
+      }
+      yaw_is_absolute {
+        value: true
+      }
+      translation_is_absolute {
+      }
+      swing_height {
+        value: 0.15
+      }
+    }
+  }
+  moves {
+    type: "jump"
+    start_slice: 143
+    requested_slices: 6
+    jump_params {
+      yaw {
+      }
+      flight_slices {
+        value: 2.0
+      }
+      stance_width {
+        value: 0.45
+      }
+      stance_length {
+        value: 0.74
+      }
+      translation {
+        x {
+        }
+        y {
+        }
+      }
+      split_fraction {
+      }
+      absolute_yaw {
+      }
+      absolute_translation {
+        x {
+        }
+        y {
+        }
+      }
+      yaw_is_absolute {
+        value: true
+      }
+      translation_is_absolute {
+      }
+      swing_height {
+        value: 0.15
+      }
+    }
+  }
+  moves {
+    type: "jump"
+    start_slice: 150
+    requested_slices: 6
+    jump_params {
+      yaw {
+      }
+      flight_slices {
+        value: 2.0
+      }
+      stance_width {
+        value: 0.45
+      }
+      stance_length {
+        value: 0.74
+      }
+      translation {
+        x {
+        }
+        y {
+        }
+      }
+      split_fraction {
+      }
+      absolute_yaw {
+      }
+      absolute_translation {
+        x {
+        }
+        y {
+        }
+      }
+      yaw_is_absolute {
+        value: true
+      }
+      translation_is_absolute {
+      }
+      swing_height {
+        value: 0.15
+      }
+    }
+  }
+  moves {
+    type: "crawl"
+    start_slice: 157
+    requested_slices: 51
+    crawl_params {
+      swing_slices {
+        value: 6.0
+      }
+      velocity {
+        x {
+          value: -0.1
+        }
+        y {
+        }
+      }
+      stance_width {
+        value: 0.3
+      }
+      stance_length {
+        value: 0.6
+      }
+    }
+  }
+  moves {
+    type: "sway"
+    start_slice: 158
+    requested_slices: 66
+    sway_params {
+      vertical {
+        value: 0.2
+      }
+      horizontal {
+        value: 1e-06
+      }
+      roll {
+      }
+      pivot: PIVOT_CENTER
+      style: SWAY_STYLE_SQUARE
+      pronounced {
+        value: 0.5
+      }
+      hold_zero_axes {
+      }
+    }
+  }
+  moves {
+    type: "turn_2step"
+    start_slice: 208
+    requested_slices: 8
+    turn_params {
+      yaw {
+        value: 0.8
+      }
+      swing_height {
+      }
+      swing_velocity {
+      }
+      absolute_yaw {
+        value: 1e-06
+      }
+      yaw_is_absolute {
+        value: true
+      }
+      motion {
+        x {
+        }
+        y {
+        }
+      }
+      absolute_motion {
+        x {
+        }
+        y {
+        }
+      }
+      motion_is_absolute {
+      }
+    }
+  }
+  moves {
+    type: "pace_2step"
+    start_slice: 216
+    requested_slices: 8
+    pace_2step_params {
+      motion {
+        x {
+          value: 0.1
+        }
+        y {
+        }
+      }
+      swing_height {
+      }
+      swing_velocity {
+      }
+      absolute_motion {
+        x {
+        }
+        y {
+        }
+      }
+      motion_is_absolute {
+      }
+      yaw {
+      }
+      absolute_yaw {
+      }
+      yaw_is_absolute {
+      }
+    }
+  }
+}
